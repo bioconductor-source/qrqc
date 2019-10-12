@@ -1,6 +1,6 @@
 Package: qrqc
-Version: 1.39.0
-Date: 2012-04-17
+Version: 1.39.1
+Date: 2019-10-12
 Title: Quick Read Quality Control
 Author: Vince Buffalo
 Maintainer: Vince Buffalo <vsbuffalo@ucdavis.edu>
@@ -8,6 +8,7 @@ Imports: reshape, ggplot2, Biostrings, biovizBase, graphics, methods,
         plyr, stats
 Depends: reshape, ggplot2, Biostrings, biovizBase, brew, xtable, testthat
 LinkingTo: Rhtslib (>= 1.15.3)
+SystemRequirements: GNU make
 Description: Quickly scans reads and gathers statistics on base and
         quality frequencies, read length, k-mers by position, and
         frequent sequences. Produces graphical output of statistics for
