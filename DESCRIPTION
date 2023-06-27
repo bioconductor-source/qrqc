@@ -1,5 +1,5 @@
 Package: qrqc
-Version: 1.55.0
+Version: 1.55.1
 Date: 2019-10-12
 Title: Quick Read Quality Control
 Author: Vince Buffalo
@@ -19,3 +19,4 @@ License: GPL (>=2)
 URL: http://github.com/vsbuffalo/qrqc
 biocViews: Sequencing, QualityControl, DataImport, Preprocessing,
         Visualization
+PackageStatus: Deprecated
